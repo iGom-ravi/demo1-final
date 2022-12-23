@@ -81,7 +81,7 @@ class Demo1ApplicationTests {
 	 public void readData() {
 		 AccountOpenBalance aa=accountRepository.findById(1).get();
 		// aa.setAccBal(1000);
-		 assertEquals(2000, aa.getAccBal());
+		 assertEquals(1000, aa.getAccBal());
 		 
 	 }
 	 
